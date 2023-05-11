@@ -1,0 +1,36 @@
+MariaDB/registrationform/studentdetails/		http://localhost/phpmyadmin/tbl_sql.php?db=registrationform&table=studentdetails
+Your SQL query has been executed successfully.
+
+DESC studentdetails
+
+
+Create table studentdetails(
+FIRSTNAME	varchar(20)
+LASTNAME	varchar(10)
+FATHERNAME	varchar(20)
+MOTHERNAME	varchar(20)
+GENDER	varchar(10)
+PHONE	int(15)
+ALTERNATEPH	int(15)
+DOB	date	
+EMAIL	varchar(20)		
+RELIGION	varchar(15)		
+CASTE	varchar(15)	
+NATIONALITY varchar(15)		
+JECARANK int(10)		
+HSBOARD	varchar(10)		
+HSYEAR	int(10)		
+HSMARKS	int(10)		
+SBOARD	varchar(10)		
+SYEAR	int(10)		
+SMARKS	int(10)		
+GBOARD	varchar(10)
+GYEAR	int(10)	
+GMARKS	int(10)
+COURSE	varchar(10)
+STREAM	varchar(10)	
+COUNTRY	varchar(10)
+STATE	varchar(15)
+HOMEADDRESS varchar(15)
+ZIP	int(10)	
+);
